@@ -1,0 +1,25 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+.env
+.nitro
+.tanstack
+.wrangler
+.output
+.vinxi
+__unconfig*
+todos.json
+
+.db
+
+# Generated knowledge-base vectors (rebuild with `pnpm knowledge:embed`)
+src/content/knowledge/embeddings.json
+
+# Playwright
+test-results
+playwright-report
+blob-report
+playwright/.cache
+.env.e2e
